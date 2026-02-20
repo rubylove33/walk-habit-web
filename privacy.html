@@ -77,35 +77,91 @@
         <h2>2. Information We Collect and Purpose of Use</h2>
         <p>The permissions requested by the App and their purposes are as follows:</p>
         <ul>
-            <li><strong>Camera & Photo Library Permissions:</strong> For taking workout verification photos, checking
-                for faces (privacy warning), storing body check records, and applying templates. Face detection is
-                performed entirely on-device.</li>
-            <li><strong>Payment Information (In-App Purchase):</strong> For purchasing and restoring Premium Membership.
-                Payments are processed via Apple App Store or Google Play Store.</li>
-            <li><strong>App Tracking Transparency (iOS):</strong> Providing personalized advertisements via IDFA and
-                measuring ad effectiveness.</li>
+            <li><strong>1. Camera & Photo Library Permissions</strong>
+                <ul>
+                    <li><strong>Purpose:</strong> Taking workout verification photos, <strong>checking for faces
+                            (privacy warning)</strong>, storing body check records, and applying templates.</li>
+                    <li><strong>Processing:</strong> Captured or selected images are stored locally on your device. Only
+                        if the user explicitly taps the 'Save' button, images may be copied to the system photo gallery
+                        (album). <strong>Face detection is performed entirely on-device, and no face data is collected
+                            or transmitted.</strong></li>
+                </ul>
+            </li>
+            <li><strong>2. Payment Information (In-App Purchase)</strong>
+                <ul>
+                    <li><strong>Purpose:</strong> Purchasing and restoring Premium Membership.</li>
+                    <li><strong>Processing:</strong> All payments are processed through the Apple App Store or Google
+                        Play Store. The App does not directly collect or hold your credit card number or account
+                        information.</li>
+                </ul>
+            </li>
+            <li><strong>3. App Tracking Transparency (iOS)</strong>
+                <ul>
+                    <li><strong>Purpose:</strong> Providing personalized advertisements via the Advertising Identifier
+                        (IDFA) and measuring ad effectiveness.</li>
+                    <li><strong>Processing:</strong> For iOS users, the App requests tracking permission upon the first
+                        launch. The identifier is used only if permission is granted. If denied, the App remains
+                        functional, but non-personalized (generic) ads may be displayed.</li>
+                </ul>
+            </li>
         </ul>
 
         <h2>3. Retention and Destruction of Data</h2>
         <ul>
-            <li>All data in the App is <strong>stored only on your device</strong>.</li>
-            <li>Biometric authentication (Face ID/Fingerprint) signal is handled by the OS; the App never accesses the
-                biometric data itself.</li>
-            <li>Deleting the App or using "Clear Data" erases all data immediately.</li>
+            <li>1. All data in the App (workout records, photos, settings, etc.) is <strong>stored only on your
+                    device</strong>.</li>
+            <li>2. If a user uses Biometric authentication (Face ID/Fingerprint) to lock the 'Body Check Gallery', the
+                App only receives a success/fail signal from the OS and never accesses or stores the biometric data
+                itself.</li>
+            <li>3. If a user uses the "Clear Data" feature or deletes the App, the data stored on the device is
+                immediately deleted and cannot be recovered.</li>
+            <li>4. The developer does not store user data on servers and is not responsible for recovering lost data.
+            </li>
         </ul>
 
         <h2>4. Third-Party Service Providers</h2>
-        <p>We use Google AdMob for advertisements and Firebase Crashlytics for stability analysis. Data processed
-            includes Device Identifiers, Product Interaction, and Crash Data.</p>
+        <p>We use the following third-party services (SDKs) to display advertisements and analyze app stability. During
+            this process, the following information may be collected and transmitted in accordance with each service
+            provider's policies.</p>
+        <ul>
+            <li><strong>Collected Data:</strong> Device Identifiers (Device ID, Advertising ID), Product Interaction,
+                Advertising Data, Crash & Performance Data.</li>
+            <li><strong>Purpose of Use:</strong> Third-Party Advertising, Analytics, App Functionality.</li>
+        </ul>
+        <p>The collected data is processed according to the privacy policy of each service provider.</p>
+        <ul>
+            <li><strong>Google AdMob (Advertising):</strong> <a href="https://policies.google.com/privacy">Google
+                    Privacy Policy</a></li>
+            <li><strong>Firebase Crashlytics (Crash Reporting):</strong> <a
+                    href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a></li>
+        </ul>
 
-        <h2>5. Privacy Rights</h2>
-        <p>Users have rights under GDPR (EU) and CCPA/CPRA (California) to access, delete, or opt-out of data
-            processing/tracking through device settings.</p>
+        <h2>5. Privacy Rights (GDPR & CCPA/CPRA)</h2>
+        <ul>
+            <li><strong>GDPR (EU Users):</strong> You have the right to access, rectify, erase, and restrict the
+                processing of your data. Since this App stores data locally, uninstalling the App will immediately erase
+                all data. You may opt-out of ad tracking via your device settings ('Limit Ad Tracking' or 'App Tracking
+                Transparency').</li>
+            <li><strong>CCPA/CPRA (California Users):</strong> California residents have the right to opt-out of the
+                sale or sharing of their personal information ("Do Not Sell or Share My Personal Information"). We do
+                not sell your personal information. However, tailored ads may be served by our advertising partners. You
+                may limit this via your device settings.</li>
+        </ul>
 
-        <h2>6. Contact</h2>
-        <p>For questions, contact us at: <a href="mailto:ahyoung.app@gmail.com">ahyoung.app@gmail.com</a></p>
+        <h2>6. Third-Party Disclosure and Sharing</h2>
+        <p>Except for the third-party services (SDKs) listed above, the App does not provide or entrust personal
+            information to third parties without your consent. However, if you use the 'Share' feature to send images to
+            SNS or external messengers, information may be processed according to the terms of those services.</p>
+
+        <h2>7. Privacy Officer and Contact</h2>
+        <p>If you have any questions regarding the processing of personal information in this App, please contact us at:
+        </p>
+        <ul>
+            <li><strong>Email:</strong> ahyoung.app@gmail.com</li>
+            <li><strong>Jurisdiction:</strong> Texas, United States</li>
+        </ul>
         <hr>
-        <p><strong>Effective Date:</strong> February 15, 2026</p>
+        <p><strong>Effective Date:</strong> February 15, 2026 (Revised)</p>
     </main>
 
     <footer>
